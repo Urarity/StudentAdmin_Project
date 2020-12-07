@@ -1,0 +1,274 @@
+/********************************************************************
+ *	Java III - css
+ * 	Patricia Rivera	- Spring 2020
+ *            main.css
+ ********************************************************************/
+
+/************* index.jsp css ***************/
+
+/*********** Navbar help from https://www.w3schools.com/howto/howto_css_fixed_menu.asp ***********/
+body{
+    margin: 0px;
+    font-family: "Times New Roman", Times, serif;
+    background-image: url("../images/crumple_paper.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.header1{
+    text-align: center;
+} 
+
+.navbar {
+    overflow: hidden;
+    background-color: #78909c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+    background-image: url("../images/crumple_paper.jpg");
+}
+
+/************************ End of Navbar ***********************/
+
+/************************ index.jsp **************************/
+
+#adminLogin {
+    display: block;
+}
+
+#studentLogin {
+    display: block;
+}
+
+/************************ Image *******************************/
+
+.imgCss{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -170px;
+    margin-bottom: -50px;
+}
+
+/************************ End of Image *************************/
+
+/************************ index.jsp ***************************/
+
+#left {
+    padding: 16px;
+    margin-top: 30px;
+    padding-left: 110px;
+    padding-top: 200px;
+    display: block;
+    float: left;
+}
+
+#right {
+    padding: 16px;
+    margin-top: 30px;
+    display: block;
+    float: right;
+}
+
+/************************ End of index.jsp ********************/
+
+/************************ Bottom Bar ***************************/
+.bottom{
+    overflow: hidden;
+    background-color: #78909c;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.creator{
+    text-align: center;
+}
+
+/************************ End of Bottom Bar *********************/
+
+/************************ Beginning of StudentLogin.jsp / every jsp's body' ***************/
+
+.mainpart{
+    padding: 40px;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.label_txt label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+}
+
+/************************ End of StudentLogin.jsp ***************/
+
+/************************ Beginning of studentProfile.jsp ********************/
+
+#studentInfo{
+    border: 2px solid #78909c;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: white;
+    color: black;
+    border-style: inset;
+    margin-bottom: 50px;
+    table-layout:fixed;
+    width:100%;
+    background-image: url("../images/crumple_paper.jpg");
+}
+
+#courseInfo, #sectionInfo{
+    border: 2px solid #78909c;
+    background-image: url("../images/crumple_paper.jpg");
+    margin-left:auto; 
+    margin-right:auto;
+    table-layout:fixed;
+}
+
+th, td{
+    text-align: center; 
+    border: 2px solid black;
+    background-image: url("../images/crumple_paper.jpg");
+}
+
+#studentInfo2{
+    border: 2px solid #78909c;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: #78909c;
+    color: black;
+    border-style: inset;
+    margin-bottom: 50px;
+}
+
+.tableText:hover{
+    color: #78909c;
+}
+
+th:hover {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+#studentInfo3{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/crumple_paper.jpg");
+}
+
+.backgroundInput{
+    background-image: url("../images/crumple_paper.jpg");
+    background-color: white;
+    width: 95%;
+}
+
+.btns{
+    background-color: #78909c;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btns:hover{
+    background-image: url("../images/crumple_paper.jpg");
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    /**** https://www.w3schools.com/css/css3_buttons.asp ******/
+}
+
+.logOut{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/************************ End of studentProfile.jsp **************************/
+
+/************************ Beginning of StudentInvalidName.jsp & StudentInvalidPass ***************/
+
+.invalidHeader, .errorMessage{
+    text-align: center;
+    font-weight: bold;
+}
+
+.fullName{
+    font-weight: bold;
+    text-align: center;
+}
+
+/************************ End of StudentInvalidName.jsp & StudentInvalidPass ***************/
+
+/************************ Beginning of AdminPage.jsp ***************/
+
+table.instructor{
+    table-layout: fixed;
+    width: 100%;  
+}
+
+.teachInput{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../images/crumple_paper.jpg");
+}
+
+#addInstructor{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+/************************ End of AdminPage.jsp ***************/
+
+/************************ AddToDatabase.jsp ******************/
+
+#successfull{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/************************ End of AddToDatabase.jsp ***********/
+
+/*********************** AdminStudents.jsp *******************/
+
+#students{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/crumple_paper.jpg");
+}
+
+/*********************** End of AdminStudents.jsp ************/
